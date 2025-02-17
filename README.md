@@ -4,10 +4,10 @@ Bitbucket CLI is a command-line tool to manage your Bitbucket repositories, proj
 
 ## Features
 
-- Create and manage projects
+- Create projects
 - Create and manage repositories
-- Add or remove users
-- Configure branch permissions
+    - Add or remove users
+    - Configure branch permissions
 
 ## Installation
 
