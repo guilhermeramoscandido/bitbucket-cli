@@ -22,12 +22,16 @@ Bitbucket CLI is a command-line tool to manage your Bitbucket repositories, proj
 
 ## Usage
 
-1. Set your Bitbucket authentication token as an environment variable:
+1. Set your Bitbucket [oauth](https://support.atlassian.com/bitbucket-cloud/docs/use-oauth-on-bitbucket-cloud/) token as an environment variable:
+
     ```sh
     export BITBUCKET_TOKEN=<your-auth-token>
     ```
-
-2. Run the CLI:
+2. User:Password from [app-passord](https://support.atlassian.com/bitbucket-cloud/docs/create-an-app-password/) (base64) as an environment variable:
+    ```sh
+    export APP_PASSWORD_BASE64=<user:password>
+    ```
+4. Run the CLI:
     ```sh
     node index.js
     ```
